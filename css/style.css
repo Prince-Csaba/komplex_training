@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Rockwell", serif;
+  font-size: 16px;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cSection {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.cHeading {
+  color: #72112a;
+  font-size: 40px;
+  line-height: 2rem;
+  padding-bottom: 10px;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.cHeadingS {
+  color: #72112a;
+  font-size: 1.7rem;
+  padding-bottom: 45px;
+  text-align: center;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.cBody {
+  padding-bottom: 1.4em;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+  .cSection {
+    width: 70%;
+  }
+  .cHeading {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  * {
+    font-size: 12px;
+  }
+  .cSection {
+    width: 80%;
+  }
+  .cHeading {
+    font-size: 2rem;
+  }
+}
+
+.strong {
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
