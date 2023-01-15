@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+.redBg {
+  background-color: $main;
+}
+
 .cSection {
   width: 60%;
   margin: 0 auto;
@@ -71,10 +75,10 @@ a {
 
 }
 
-
-
-
-
 .strong {
   font-weight: 700;
+}
+
+.pBackground {
+  background-color: rgba(114,17,42,0.03);;
 }
