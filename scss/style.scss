@@ -23,7 +23,8 @@ a {
 
 .cSection {
   width: 60%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cHeading {
@@ -81,4 +82,45 @@ a {
 
 .pBackground {
   background-color: rgba(114,17,42,0.03);;
+}
+
+.footer {
+  display: flex;
+  min-height: 10rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.fNavItem{
+  margin: 20px 20px;
+}
+
+.footerQ {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerNav {
+    width: 100%;
+  }
+
+  .fNavItem{
+    margin: 20px 10px;
+  }
+
+  .footerQ {
+    width: 90%;
+  }
 }

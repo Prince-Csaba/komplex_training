@@ -2,6 +2,10 @@
   padding: 30px 0;
 }
 
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -16,6 +20,10 @@
 
 .textCenter {
   text-align: center;
+}
+
+.w-75 {
+  width: 75% !important;
 }
 
 * {
@@ -40,7 +48,8 @@ a {
 
 .cSection {
   width: 60%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cHeading {
@@ -94,5 +103,63 @@ a {
 
 .pBackground {
   background-color: rgba(114, 17, 42, 0.03);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 10rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fNavItem {
+  margin: 20px 20px;
+}
+
+.footerQ {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerNav {
+    width: 100%;
+  }
+  .fNavItem {
+    margin: 20px 10px;
+  }
+  .footerQ {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
