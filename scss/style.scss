@@ -89,6 +89,7 @@ a {
   min-height: 10rem;
   flex-direction: column;
   align-items: center;
+  background-color: $bg-black;
 }
 
 .footerNav {
@@ -101,6 +102,9 @@ a {
 
 .fNavItem{
   margin: 20px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
 }
 
 .footerQ {
@@ -111,22 +115,57 @@ a {
   padding: 0 20px;
 
   h5 {
+    font-size: 1.2rem;
     margin-bottom: 10px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 1.1rem;
   }
 }
 
-
+@media only screen and (min-width: 1000px) {
+  .footer {
+    min-height: 18rem;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+  }
+  
+  .fNavItem{
+    margin: 20px 20px;
+  }
+  
+  .footerQ {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 0 30px;
+    margin-top: 0;
+  
+    h5 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .footer {
     font-size: 1.5rem;
   }
-  
-  
+   
   .footerNav {
     width: 100%;
   }
