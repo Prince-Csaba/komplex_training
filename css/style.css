@@ -151,15 +151,34 @@ a {
   padding: 0 20px;
 }
 
+.footerQ h5 {
+  margin-bottom: 10px;
+}
+
+.footerQ p {
+  font-size: 14px;
+}
+
 @media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 1.5rem;
+  }
   .footerNav {
     width: 100%;
   }
   .fNavItem {
     margin: 20px 10px;
+    font-size: 16px;
   }
   .footerQ {
     width: 90%;
+    font-size: 1.5rem;
+  }
+  .footerQ h5 {
+    font-size: 16px;
+  }
+  .footerQ p {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=style.css.map */

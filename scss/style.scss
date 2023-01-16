@@ -109,18 +109,43 @@ a {
   flex-direction: column;
   width: 70%;
   padding: 0 20px;
+
+  h5 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
 
+
+
 @media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 1.5rem;
+  }
+  
+  
   .footerNav {
     width: 100%;
   }
 
   .fNavItem{
     margin: 20px 10px;
+    font-size: 16px;
   }
 
   .footerQ {
     width: 90%;
+    font-size: 1.5rem;
+
+    h5 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 16px;
+    }
   }
 }
