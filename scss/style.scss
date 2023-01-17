@@ -46,9 +46,10 @@ a {
 }
 
 .cBody {
-  padding-bottom: 1.4em; //22px;
+  padding-bottom: 1.3em; //22px;
   font-weight: 400;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
 @media only screen and (max-width: 980px) {
@@ -82,6 +83,30 @@ a {
 
 .pBackground {
   background-color: rgba(114,17,42,0.03);;
+}
+
+.aboutMeTop {
+  display: flex;
+  gap: 30px;
+}
+
+.aboutMeImg {
+  width: auto;
+  height: 500px;
+
+  img {
+    height: 100%;
+  }
+}
+
+.aboutMeText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.aboutMeText {
+  width: 100%;
 }
 
 .footer {
