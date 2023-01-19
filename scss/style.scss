@@ -93,6 +93,8 @@ a {
 .aboutMeImg {
   width: auto;
   height: 500px;
+  display: flex;
+  margin: auto 0;
 
   img {
     height: 100%;
@@ -107,6 +109,37 @@ a {
 
 .aboutMeText {
   width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+  .aboutMeTop {
+    flex-wrap: wrap;
+  }
+
+  .aboutMeImg {
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+  
+    img {
+      height: 60vh;
+      width: auto;
+      object-fit: cover;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutMeImg {
+    width: 100%;
+  
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
 }
 
 .footer {

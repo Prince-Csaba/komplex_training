@@ -124,6 +124,10 @@ a {
 .aboutMeImg {
   width: auto;
   height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 0;
 }
 
 .aboutMeImg img {
@@ -145,6 +149,37 @@ a {
 
 .aboutMeText {
   width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+  .aboutMeTop {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .aboutMeImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+  }
+  .aboutMeImg img {
+    height: 60vh;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutMeImg {
+    width: 100%;
+  }
+  .aboutMeImg img {
+    height: auto;
+    width: 100%;
+  }
 }
 
 .footer {
