@@ -28,6 +28,19 @@ a {
   margin-right: auto;
 }
 
+.carousel {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 720px;
+}
+
+@media only screen and (max-width: 900px) {
+  .carousel {
+    width: 75%;
+  }
+}
+
 .cHeading {
   color: $main;
   font-size: 40px;
@@ -67,7 +80,7 @@ a {
   * {
     font-size: 12px;
   }
-  
+
   .cSection {
     width: 80%;
   }
@@ -78,12 +91,15 @@ a {
 
 }
 
+
+
 .strong {
   font-weight: 700;
 }
 
 .pBackground {
-  background-color: rgba(114,17,42,0.03);;
+  background-color: rgba(114, 17, 42, 0.03);
+  ;
 }
 
 .testimonials {
@@ -125,20 +141,20 @@ a {
   .tSlide {
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: red; 
+    background-color: red;
   }
-  
+
   .tLeft {
     width: 100%;
     height: 200px;
     margin-bottom: 30px;
   }
-  
+
   .tRight {
     width: 100%;
     height: 200px;
 
-}
+  }
 }
 
 .aboutMeTop {
@@ -177,7 +193,7 @@ a {
     margin: 0 auto;
     width: auto;
     height: auto;
-  
+
     img {
       height: 60vh;
       width: auto;
@@ -190,7 +206,7 @@ a {
 @media only screen and (max-width: 600px) {
   .aboutMeImg {
     width: 100%;
-  
+
     img {
       height: auto;
       width: 100%;
@@ -214,7 +230,7 @@ a {
   flex-wrap: wrap;
 }
 
-.fNavItem{
+.fNavItem {
   margin: 20px 20px;
   text-decoration: none;
   color: white;
@@ -244,7 +260,7 @@ a {
     flex-direction: row;
     align-items: center;
   }
-  
+
   .footerNav {
     display: flex;
     justify-content: center;
@@ -252,23 +268,23 @@ a {
     width: 80%;
     flex-wrap: wrap;
   }
-  
-  .fNavItem{
+
+  .fNavItem {
     margin: 20px 20px;
   }
-  
+
   .footerQ {
     display: flex;
     flex-direction: column;
     width: 70%;
     padding: 0 30px;
     margin-top: 0;
-  
+
     h5 {
       font-size: 1.2rem;
       margin-bottom: 10px;
     }
-  
+
     p {
       font-size: 1.1rem;
     }
@@ -279,12 +295,12 @@ a {
   .footer {
     font-size: 1.5rem;
   }
-   
+
   .footerNav {
     width: 100%;
   }
 
-  .fNavItem{
+  .fNavItem {
     margin: 20px 10px;
     font-size: 16px;
   }
