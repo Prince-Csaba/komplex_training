@@ -1,0 +1,45 @@
+@media only screen and (max-width: 900px) {
+  .feedbackL {
+    display: none;
+  }
+}
+
+img {
+  margin: 10px auto;
+  height: auto;
+  width: 280px;
+  object-fit: cover;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cards {
+  background-color: #ffc200;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#expertise {
+  padding: 20px;
+  background-color: #ffc200;
+  margin: 0;
+  text-align: center;
+}
+
+.main {
+    background-color: #ffc200;
+}

@@ -16,13 +16,17 @@
   max-width: 100%;
   position: relative;
   margin: auto;
-  display: none;
-  height: 600px;
+  display: block;
+  height: 700px;
 
 }
 
+.feedbackS{
+  display: none;
+}
+
 @media only screen and (max-width: 900px) {
-  .cSlideshow-container {
+  .feedbackS {
     display: block;
   }
 }
@@ -34,11 +38,11 @@
 
 .myCSlides {
   display: none;
-  height: 600px;
+  height: 700px;
   align-items: center;
 
   img {
-    max-height: 600px;
+    max-height: 650px;
     object-fit: cover;
   }
 }
