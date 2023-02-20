@@ -261,7 +261,6 @@ img {
 }
 
 .cards {
-  background-color: #ffc200;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,13 +285,8 @@ img {
 
 #expertise {
   padding: 20px;
-  background-color: #ffc200;
   margin: 0;
   text-align: center;
-}
-
-.main {
-  background-color: #ffc200;
 }
 
 .title {
@@ -393,9 +387,9 @@ a {
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
   .ctaButton {
-    top: 22px;
+    top: 17px;
     right: 20px;
     border: 3px solid white;
     padding: 20px 10px;
