@@ -4,13 +4,23 @@
 
  $bg-black: #222222;
 
- $orange: #ff5534;
- $orange-l: #ff8960;
+// $orange: #ff5534;
+ $orange: hsl(10, 100%, 55%);
+ // $orange-l: #ff8960;
+ $orange-l: hsl(15, 100%, 54%);
  $orange-d: #c41806;
 
  $grey: #1f2730;
  $grey-l: #474f59;
  $grey-d: #000007;
+
+.textGrey {
+  color: grey;
+}
+
+.textGrey-d {
+  color: $grey-d;
+}
 
  .textOrange {
   color: $orange;
