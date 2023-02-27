@@ -66,6 +66,39 @@ a {
   z-index: 0;
 }
 
+.ctaContainer {
+  display: flex;
+}
+
+.ctaImage {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 25vh;
+    height: 200px;
+    min-height: 100px;
+    background-color: aquamarine;
+  }
+}
+
+.ctaText {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textInner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .ctaTape {
   min-height: 100px;
   width: 95%;
@@ -81,14 +114,27 @@ a {
   right: 100px;
   border: 4px solid white;
   background-color: transparent;
-  color: #212121;
+//  color: #212121;
+  color: white;
   padding: 20px;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 700;
   text-transform: uppercase;
 
 }
 
 @media only screen and (max-width: 900px) {
+  .ctaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ctaImage, .ctaText {
+    display: flex;
+  }
+
   .ctaButton {
     right: 20px;
   }
