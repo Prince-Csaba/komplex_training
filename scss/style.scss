@@ -280,6 +280,37 @@ a {
   }
 }
 
+.pRow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pText {
+  width: 50%;
+}
+
+.pImage {
+  width: 50%;
+  height: 500pz;
+}
+
+.reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.pCard-p {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.pHeading {
+  font-size: 1.8rem;
+}
+
+
+
+
 .aboutMeTop {
   display: flex;
   gap: 30px;
