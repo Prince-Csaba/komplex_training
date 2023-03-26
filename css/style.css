@@ -2,6 +2,15 @@
   padding: 30px 0;
 }
 
+.p-15 {
+  padding: 15px;
+}
+
+.px-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .pt-10 {
   padding-top: 10px;
 }
@@ -78,6 +87,10 @@
 
 .bgGrey {
   background-color: #1f2730;
+}
+
+.bgGrey-l {
+  background-color: #474f59;
 }
 
 /* Slideshow container */
@@ -340,7 +353,7 @@ h6 {
 }
 
 .headerS {
-  font-size: 36px;
+  font-size: 24px;
 }
 
 * {
@@ -622,7 +635,6 @@ a {
 }
 
 .pRow {
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -630,18 +642,42 @@ a {
       flex-wrap: wrap;
 }
 
+.pRowR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
 .pText {
   width: 50%;
+  min-width: 320px;
 }
 
 .pImage {
   width: 50%;
-  height: 500pz;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pImage img {
+  width: 100%;
+  margin: auto;
 }
 
 .reverse {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+}
+
+.pCard {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .pCard-p {
@@ -651,6 +687,16 @@ a {
 
 .pHeading {
   font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .pText {
+    width: 100%;
+    min-width: 320px;
+  }
+  .pImage {
+    width: 100%;
+  }
 }
 
 .aboutMeTop {
