@@ -392,10 +392,26 @@ a {
   z-index: 0;
 }
 
+@media only screen and (max-width: 900px) {
+  .ctaDiv {
+    min-height: 600px;
+  }
+}
+
+.flexHCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .ctaContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 .ctaImage {
@@ -429,6 +445,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 300px;
 }
 
 .textInner {
