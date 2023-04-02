@@ -432,8 +432,8 @@ a {
 
 .footerNav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-end;
   width: 70%;
   flex-wrap: wrap;
 }
@@ -443,6 +443,8 @@ a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
+  border: 2px solid white;
+  padding: 20px;
 }
 
 .footerQ {
@@ -511,6 +513,7 @@ a {
   .fNavItem {
     margin: 20px 10px;
     font-size: 16px;
+    text-decoration: none;
   }
 
   .footerQ {
