@@ -584,6 +584,19 @@ a {
   }
 }
 
+.fImg {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .pastNow {
+    width: 100%;
+  }
+}
+
 .strong {
   font-weight: 700;
 }
