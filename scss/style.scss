@@ -241,6 +241,10 @@ a {
   .pastNow {
     width: 100%;
   }
+
+  .fImg {
+    width: 100%;
+  }
 }
 
 .strong {
@@ -351,7 +355,13 @@ a {
 
 .pHeading {
   font-size: 1.8rem;
+
+  i {
+    font-size: inherit;
+  }
 }
+
+
 
 @media only screen and (max-width: 900px) {
   .pText {
