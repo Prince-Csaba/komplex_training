@@ -231,13 +231,13 @@ a {
 }
 
 .fImg {
-  width: 50%;
+  width: 60%;
   display: block;
   margin: 0 auto;
   padding-bottom: 1.3rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .pastNow {
     width: 100%;
   }
