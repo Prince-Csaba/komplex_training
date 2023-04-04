@@ -808,11 +808,14 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 10rem;
-  -webkit-box-orient: vertical;
+  min-height: 20rem;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -823,12 +826,11 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 70%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -841,10 +843,11 @@ a {
   font-size: 1rem;
   border: 2px solid white;
   padding: 20px;
+  text-decoration: none !important;
+  color: white !important;
 }
 
 .footerQ {
-  margin-top: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -865,9 +868,9 @@ a {
   font-size: 1.1rem;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .footer {
-    min-height: 18rem;
+    min-height: 20rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
