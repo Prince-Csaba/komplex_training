@@ -555,12 +555,15 @@ a {
 }
 
 .ebookNavItem {
+  width: 200px;
   margin: 20px 20px;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border: 2px solid $grey;
   background-color: transparent;
   padding: 20px;
   text-decoration: none !important;
   color: $grey !important;
+  display: block;
+  margin: 0 auto;
 }
