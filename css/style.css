@@ -947,4 +947,15 @@ a {
     font-size: 16px;
   }
 }
+
+.ebookNavItem {
+  margin: 20px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  border: 2px solid #1f2730;
+  background-color: transparent;
+  padding: 20px;
+  text-decoration: none !important;
+  color: #1f2730 !important;
+}
 /*# sourceMappingURL=style.css.map */

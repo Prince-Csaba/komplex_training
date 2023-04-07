@@ -145,6 +145,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
   }
 
   .ctaImage, .ctaText {
@@ -551,4 +552,15 @@ a {
       font-size: 16px;
     }
   }
+}
+
+.ebookNavItem {
+  margin: 20px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  border: 2px solid $grey;
+  background-color: transparent;
+  padding: 20px;
+  text-decoration: none !important;
+  color: $grey !important;
 }
