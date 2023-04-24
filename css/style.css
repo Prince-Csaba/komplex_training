@@ -464,6 +464,7 @@ a {
           align-items: center;
   margin-left: -50px;
   margin-right: 50px;
+  font-size: 2rem;
 }
 
 .ctaTape {
@@ -510,9 +511,14 @@ a {
     display: flex;
   }
   .textInner {
+    margin-left: 0px;
+  }
+  .textInner h2 {
+    font-size: 1.3rem;
     margin-left: 0;
     margin-right: 0;
-    margin-top: -120px;
+    padding-bottom: 50px;
+    margin-top: -80px;
   }
   .ctaButton {
     right: 20px;
@@ -523,6 +529,9 @@ a {
   .ctaTape {
     width: calc(100vw - 10px);
     left: 10px;
+  }
+  .textInner {
+    font-size: 1rem;
   }
 }
 
