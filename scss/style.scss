@@ -74,7 +74,7 @@ a {
 
 @media only screen and (max-width: 600px) {
   .ctaDiv {
-    min-height: 600px;
+    min-height: 800px;
   }
 
   .ctaImage {
@@ -83,12 +83,11 @@ a {
     justify-content: center;
     align-items: center;
     padding-top: 30px;
-  
+
     img {
       width: auto;
-      height: 30vh;
+      height: 10vh;
       min-height: 100px;
-      background-color: aquamarine;
     }
   }
 }
@@ -114,7 +113,6 @@ a {
     width: 30vh;
     height: auto;
     min-height: 100px;
-    background-color: aquamarine;
   }
 }
 
@@ -124,6 +122,12 @@ a {
   justify-content: center;
   align-items: center;
   min-height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ctaText {
+    min-height: 380px;
+  }
 }
 
 .textInner {
@@ -152,13 +156,12 @@ a {
   right: 100px;
   border: 4px solid white;
   background-color: transparent;
-//  color: #212121;
+  //  color: #212121;
   color: white;
   padding: 20px;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -167,10 +170,10 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
-  .ctaImage, .ctaText {
+  .ctaImage,
+  .ctaText {
     display: flex;
   }
 
@@ -185,13 +188,11 @@ a {
     padding-bottom: 50px;
     margin-top: -80px;
   }
-  
 
   .ctaButton {
     right: 20px;
   }
 }
-
 
 @media only screen and (max-width: 600px) {
   .ctaTape {
@@ -270,7 +271,6 @@ a {
   .cHeading {
     font-size: 2rem;
   }
-
 }
 
 .fImg {
@@ -349,7 +349,6 @@ a {
   .tRight {
     width: 100%;
     height: 200px;
-
   }
 }
 
@@ -404,19 +403,16 @@ a {
   }
 }
 
-
-
 @media only screen and (max-width: 900px) {
   .pText {
     width: 100%;
     min-width: 320px;
   }
-  
+
   .pImage {
     width: 100%;
   }
 }
-
 
 .aboutMeTop {
   display: flex;
@@ -461,7 +457,6 @@ a {
       object-fit: cover;
     }
   }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -504,7 +499,7 @@ a {
 }
 
 .footerQ {
-//  margin-top: 2rem;
+  //  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   width: 70%;

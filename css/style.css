@@ -357,7 +357,7 @@ a {
 }
 @media only screen and (max-width: 600px) {
   .ctaDiv {
-    min-height: 600px;
+    min-height: 800px;
   }
   .ctaImage {
     width: 50%;
@@ -368,9 +368,8 @@ a {
   }
   .ctaImage img {
     width: auto;
-    height: 30vh;
+    height: 10vh;
     min-height: 100px;
-    background-color: aquamarine;
   }
 }
 .flexHCenter {
@@ -394,7 +393,6 @@ a {
   width: 30vh;
   height: auto;
   min-height: 100px;
-  background-color: aquamarine;
 }
 
 .ctaText {
@@ -405,6 +403,11 @@ a {
   min-height: 300px;
 }
 
+@media only screen and (max-width: 600px) {
+  .ctaText {
+    min-height: 380px;
+  }
+}
 .textInner {
   height: 100%;
   display: flex;
@@ -445,7 +448,8 @@ a {
     justify-content: center;
     align-items: center;
   }
-  .ctaImage, .ctaText {
+  .ctaImage,
+  .ctaText {
     display: flex;
   }
   .textInner {
