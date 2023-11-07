@@ -63,6 +63,15 @@
   display: flex !important;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-end {
+    justify-content: center;
+  }
+}
 .textGrey {
   color: grey;
 }
@@ -334,7 +343,28 @@ a {
 }
 
 .topDiv {
-  height: 65px;
+  height: 80px;
+}
+
+.topDivA {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.navCtaButton {
+  text-transform: uppercase;
+  color: white;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 22px;
+  justify-self: end;
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin: 0 30px;
+  height: 60px;
+  cursor: pointer;
 }
 
 .cSection {

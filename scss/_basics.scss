@@ -64,3 +64,14 @@
 .d-flex {
   display: flex !important;
 }
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  .flex-end {
+    justify-content: center;
+  }
+}
+
